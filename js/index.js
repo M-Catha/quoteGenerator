@@ -6,8 +6,8 @@ var getQuote = function() {
 
 	$.ajax({
 		method: "GET",
-		url: "http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en",
-		dataType: "json",
+		url: "http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?",
+		dataType: 'jsonp',
 		success: function(json) {
 			if (json) {
 
