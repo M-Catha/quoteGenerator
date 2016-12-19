@@ -9,12 +9,12 @@ a {
 .mainHeader {
 	color:white;
 	font-family:'Quicksand';
-	font-size:85px;
+	font-size:12.0vmin;
 	text-align:center;
 }
 
 #main {
-	width:900px;
+	width:90.0vmin;
 	margin:75px auto 0px auto;
 	background:white;
 	border: black solid 5px;
@@ -22,7 +22,7 @@ a {
 }
 
 .quote {
-	font-size:50px;
+	font-size:6.5vmin;
 	font-family:'Quicksand', sans-serif;
 	padding-left:35px
 }
@@ -30,7 +30,7 @@ a {
 .author {
 	font-family:'Dancing Script', cursive;
 	font-weight:bolder;
-	font-size:60px;
+	font-size:8.5vmin;
 	font-style:oblique;
 	padding:20px 20px 20px 0px;
 	float:right;
@@ -49,8 +49,8 @@ a {
 	border:2px white solid;
 	border-radius:10px;
 	width:100%;
-	height:75px;
+	height:12.0vmin;
 	text-align:center;
-	font-size:50px;
+	font-size:9.0vmin;
 	outline:none;
 }
