@@ -5,4 +5,4 @@ Uses the [forismatic API](http://forismatic.com/en/api/) to generate the quotes.
 
 Live demo here:
 
-[CodePen](http://codepen.io/MCatha/pen/GNMMWr)
+[CodePen](http://codepen.io/MCatha/full/GNMMWr/)
