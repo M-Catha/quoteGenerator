@@ -7,4 +7,4 @@ Build using HTML, CSS, Javascript, and jQuery.
 
 Live demo here:
 
-[CodePen](http://codepen.io/MCatha/full/GNMMWr/)
+[CodePen](http://s.codepen.io/MCatha/debug/GNMMWr/)
