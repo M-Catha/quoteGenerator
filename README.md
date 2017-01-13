@@ -7,4 +7,4 @@ Build using HTML, CSS, Javascript, and jQuery.
 
 Live demo here:
 
-[CodePen](http://s.codepen.io/MCatha/debug/GNMMWr/)
+[Github Pages](https://m-catha.github.io/quoteGenerator/)
