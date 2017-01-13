@@ -22,7 +22,7 @@ a {
 }
 
 .quote {
-	font-size:6.5vmin;
+	font-size:5.0vmin;
 	font-family:'Quicksand', sans-serif;
 	padding-left:35px
 }
@@ -30,7 +30,7 @@ a {
 .author {
 	font-family:'Dancing Script', cursive;
 	font-weight:bolder;
-	font-size:8.5vmin;
+	font-size:6.0vmin;
 	font-style:oblique;
 	padding:20px 20px 20px 0px;
 	float:right;
@@ -49,8 +49,8 @@ a {
 	border:2px white solid;
 	border-radius:10px;
 	width:100%;
-	height:12.0vmin;
+	height:8.0vmin;
 	text-align:center;
-	font-size:9.0vmin;
+	font-size:6.0vmin;
 	outline:none;
 }
