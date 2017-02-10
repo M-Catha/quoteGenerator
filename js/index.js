@@ -17,7 +17,7 @@ var getQuote = function() {
 				$(".textContainer").append("<blockquote class='quote'>\"" + quoteText + "\"</blockquote>" + 
 										"<footer class='author'>- " + quoteAuthor + "</footer>");
 
-				$(".buttonContainer").append("<a href='https://twitter.com/intent/tweet?text=" + quoteText + 
+				$(".buttonContainer").append("<a target='_blank' href='https://twitter.com/intent/tweet?text=" + quoteText + 
 											"- " + quoteAuthor + "'><button id='twitterButton' class='btn'>" + 
 											"<i class='fa fa-twitter'></i> Tweet Quote</button></a>");
 
@@ -63,4 +63,3 @@ function changeAllColors(body, text, quote, button, color, time) {
 	});			
 	$(button).animate({backgroundColor: color}, time);
 }
-
