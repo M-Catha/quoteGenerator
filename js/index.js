@@ -3,6 +3,13 @@ var getQuote = function() {
 	$(".quote").remove();
 	$(".author").remove();
 	$("#twitterButton").remove();
+	
+	// Using CORS anywhere plug-in
+	jQuery.ajaxPrefilter(function(options) {
+    		if (options.crossDomain && jQuery.support.cors) {
+        options.url = 'https://cors-anywhere.herokuapp.com/' + options.url;
+    		}
+  	});
 
 	$.ajax({
 		method: "GET",
